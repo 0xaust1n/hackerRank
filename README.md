@@ -23,9 +23,10 @@ Because he practies 40 hours a days.
 
 
 **Easy Problems**  
-|         Title         |         Code         |    Desc    |
-| :-------------------: | :------------------: | :--------: |
-| [socksMerchant][1web] | [Source Code][1code] | 2021/03/23 |
+|           Title           |         Code          |    Desc    |
+| :-----------------------: | :-------------------: | :--------: |
+|  [Socks Merchant][1web]   | [Source Code][1code]  | 2021/03/23 |
+| [Counting Valleys][10web] | [Source Code][10code] | 2021/03/23 |
 
 
 
@@ -56,3 +57,6 @@ Because he practies 40 hours a days.
 
 [9web]:https://www.hackerrank.com/challenges/compare-the-triplets/problem
 [9code]:./src/warmup/compareTheTriplets.js
+
+[10web]:https://www.hackerrank.com/challenges/counting-valleys/problem
+[10code]:./src/easy/countingValleys.js
