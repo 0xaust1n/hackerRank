@@ -10,16 +10,18 @@ Because he practies 40 hours a days.
 **JUST PRACTIES**  
 # Contents  
 **Warmup Problems**  
-|             Title             |         Code         |    Desc    |
-| :---------------------------: | :------------------: | :--------: |
-|   [Simple Array Sum][2web]    | [Source Code][2code] | 2021/03/24 |
-|    [A Very Big Sum][3web]     | [Source Code][2code] | 2021/03/24 |
-|  [Diagonal Difference][4web]  | [Source Code][4code] | 2021/03/24 |
-|      [Plus Minus][5web]       | [Source Code][5code] | 2021/03/24 |
-|      [Stair Case][6web]       | [Source Code][6code] | 2021/03/25 |
-|     [Mini Max Sum][7web]      | [Source Code][7code] | 2021/03/25 |
-| [Birthday Cake Candles][8web] | [Source Code][8code] | 2021/03/25 |
-| [Compare The Triplets][9web]  | [Source Code][9code] | 2021/03/25 |
+|             Title             |         Code          |    Desc    |
+| :---------------------------: | :-------------------: | :--------: |
+|   [Simple Array Sum][2web]    | [Source Code][2code]  | 2021/03/24 |
+|    [A Very Big Sum][3web]     | [Source Code][2code]  | 2021/03/24 |
+|  [Diagonal Difference][4web]  | [Source Code][4code]  | 2021/03/24 |
+|      [Plus Minus][5web]       | [Source Code][5code]  | 2021/03/24 |
+|      [Stair Case][6web]       | [Source Code][6code]  | 2021/03/25 |
+|     [Mini Max Sum][7web]      | [Source Code][7code]  | 2021/03/25 |
+| [Birthday Cake Candles][8web] | [Source Code][8code]  | 2021/03/25 |
+| [Compare The Triplets][9web]  | [Source Code][9code]  | 2021/03/25 |
+|   [Time Conversion][12web]    | [Source Code][12code] | 2021/03/29 |
+
 
 
 **Easy Problems**  
@@ -27,8 +29,8 @@ Because he practies 40 hours a days.
 | :-----------------------: | :-------------------: | :--------: |
 |  [Socks Merchant][1web]   | [Source Code][1code]  | 2021/03/23 |
 | [Counting Valleys][10web] | [Source Code][10code] | 2021/03/23 |
-
-
+| [Electronic Shop][11web]  | [Source Code][11code] | 2021/03/26 |
+| [Grading Students][13web] | [Source Code][13code] | 2021/03/30 |
 
 
 <!-- URL Below -->
@@ -60,3 +62,12 @@ Because he practies 40 hours a days.
 
 [10web]:https://www.hackerrank.com/challenges/counting-valleys/problem
 [10code]:./src/easy/countingValleys.js
+
+[11web]:https://www.hackerrank.com/challenges/electronics-shop/problem
+[11code]:./src/easy/electronicsShop.js
+
+[12web]:https://www.hackerrank.com/challenges/time-conversion/problem
+[12code]:./src/warmup/timeConversion.js
+
+[13web]:https://www.hackerrank.com/challenges/grading/problem
+[13code]:./src/easy/gradingStudents.js
