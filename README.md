@@ -25,12 +25,14 @@ Because he practies 40 hours a days.
 
 
 **Easy Problems**  
-|           Title           |         Code          |    Desc    |
-| :-----------------------: | :-------------------: | :--------: |
-|  [Socks Merchant][1web]   | [Source Code][1code]  | 2021/03/23 |
-| [Counting Valleys][10web] | [Source Code][10code] | 2021/03/23 |
-| [Electronic Shop][11web]  | [Source Code][11code] | 2021/03/26 |
-| [Grading Students][13web] | [Source Code][13code] | 2021/03/30 |
+|           Title           |         Code          |         Desc         |
+| :-----------------------: | :-------------------: | :------------------: |
+|  [Socks Merchant][1web]   | [Source Code][1code]  |      2021/03/23      |
+| [Counting Valleys][10web] | [Source Code][10code] |      2021/03/23      |
+| [Electronic Shop][11web]  | [Source Code][11code] |      2021/03/26      |
+| [Grading Students][13web] | [Source Code][13code] |      2021/03/30      |
+| [Cat and a Mouse][14code] | [Source Code][14code] | 2021/03/30 (easy af) |
+
 
 
 <!-- URL Below -->
@@ -71,3 +73,6 @@ Because he practies 40 hours a days.
 
 [13web]:https://www.hackerrank.com/challenges/grading/problem
 [13code]:./src/easy/gradingStudents.js
+
+[14web]:https://www.hackerrank.com/challenges/cats-and-a-mouse/problem
+[14code]:./src/easy/catAndMouse.js
