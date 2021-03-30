@@ -3,5 +3,5 @@ function getPerformance(method) {
   let begin = performance.now();
   method();
   let end = performance.now();
-  console.log('The time that your program cost is ' + (end - begin).toFixed(2) + 'milliseconds.');
+  console.log('runtime:' + (end - begin).toFixed(2) + 'milliseconds.');
 }
