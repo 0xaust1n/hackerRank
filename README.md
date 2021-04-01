@@ -23,7 +23,7 @@ Because he practies 40 hours a days.
 |   [Time Conversion][12web]    | [Source Code][12code] | 2021/03/29 |
 
 
-
+---
 **Easy Problems**  
 |           Title           |         Code          |         Desc         |
 | :-----------------------: | :-------------------: | :------------------: |
@@ -31,8 +31,13 @@ Because he practies 40 hours a days.
 | [Counting Valleys][10web] | [Source Code][10code] |      2021/03/23      |
 | [Electronic Shop][11web]  | [Source Code][11code] |      2021/03/26      |
 | [Grading Students][13web] | [Source Code][13code] |      2021/03/30      |
-| [Cat and a Mouse][14code] | [Source Code][14code] | 2021/03/30 (easy af) |
-
+| [Cat and a Mouse][14web]  | [Source Code][14code] | 2021/03/30 (easy af) |
+  
+---
+**Medium Problems**  
+|               Title               |         Code          |          Desc           |
+| :-------------------------------: | :-------------------: | :---------------------: |
+| [Climbing the Leaderboard][15web] | [Source Code][15code] | 2021/03/31~  2021/04/01 |
 
 
 <!-- URL Below -->
@@ -76,3 +81,6 @@ Because he practies 40 hours a days.
 
 [14web]:https://www.hackerrank.com/challenges/cats-and-a-mouse/problem
 [14code]:./src/easy/catAndMouse.js
+
+[15web]:https://www.hackerrank.com/challenges/climbing-the-leaderboard/problem
+[15code]:./src/medium/climbingTheLeaderboard.js
