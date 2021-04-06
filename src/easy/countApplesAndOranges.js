@@ -1,3 +1,15 @@
+//TL;DR For Question
+
+/*
+s => start position of houses
+t => tail(end) position of house
+range => bewteen s and t
+a, b => tree position 
+apples, oranges => array that record shifting of each fruit
+GOAL: counting how many fruites in range after shifting.
+Joke: House and fruits are tape with mass magnet in this quesiton :p
+*/
+
 //apporaching 1 brute force
 function countApplesAndOranges(s, t, a, b, apples, oranges) {
   let apple = 0;
