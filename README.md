@@ -25,14 +25,20 @@ Because he practies 40 hours a days.
 
 ---
 **Easy Problems**  
-|           Title           |         Code          |         Desc         |
-| :-----------------------: | :-------------------: | :------------------: |
-|  [Socks Merchant][1web]   | [Source Code][1code]  |      2021/03/23      |
-| [Counting Valleys][10web] | [Source Code][10code] |      2021/03/23      |
-| [Electronic Shop][11web]  | [Source Code][11code] |      2021/03/26      |
-| [Grading Students][13web] | [Source Code][13code] |      2021/03/30      |
-| [Cat and a Mouse][14web]  | [Source Code][14code] | 2021/03/30 (easy af) |
-  
+|             Title              |         Code          |         Desc         |
+| :----------------------------: | :-------------------: | :------------------: |
+|     [Socks Merchant][1web]     | [Source Code][1code]  |      2021/03/23      |
+|   [Counting Valleys][10web]    | [Source Code][10code] |      2021/03/23      |
+|    [Electronic Shop][11web]    | [Source Code][11code] |      2021/03/26      |
+|   [Grading Students][13web]    | [Source Code][13code] |      2021/03/30      |
+|    [Cat and a Mouse][14web]    | [Source Code][14code] | 2021/03/30 (easy af) |
+|    [The Hurdle Race][16web]    | [Source Code][16code] |      2021/04/02      |
+|  [Designer PDF Viewer][17web]  | [Source Code][17code] |      2021/04/03      |
+|   [Apple And Orange][18web]    | [Source Code][18code] |      2021/04/06      |
+|   [Breaking Records][19web]    | [Source Code][19code] |      2021/04/06      |
+|  [Divisible Sum Pairs][20web]  | [Source Code][20code] |      2020/04/07      |
+|    [Migratory Birds][21web]    | [Source Code][21code] |      2021/04/08      |
+| [Jumping On The Clouds][22web] | [Source Code][22code] |      2020/04/09      |
 ---
 **Medium Problems**  
 |               Title               |         Code          |          Desc           |
@@ -84,3 +90,25 @@ Because he practies 40 hours a days.
 
 [15web]:https://www.hackerrank.com/challenges/climbing-the-leaderboard/problem
 [15code]:./src/medium/climbingTheLeaderboard.js
+
+[16web]:https://www.hackerrank.com/challenges/the-hurdle-race/problem
+[16code]:./src/easy/hurdleRace.js
+
+[17web]:https://www.hackerrank.com/challenges/designer-pdf-viewer/problem
+[17code]:./src/easy/designerPdfViewer.js
+
+[18web]:https://www.hackerrank.com/challenges/apple-and-orange/problem
+[18code]:./src/easy/appleAndOrange.js
+
+[19web]:https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem
+[19code]:./src/easy/breakingRecords.js
+
+[20web]:https://www.hackerrank.com/challenges/divisible-sum-pairs/problem
+[20code]:./src/easy/divisibleSumPairs.js
+
+
+[21web]:https://www.hackerrank.com/challenges/migratory-birds/problem
+[21code]:./src/easy/migratoryBirds.js
+
+[22web]:https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem
+[22code]:./src/easy/jumpingOnTheClouds.js
