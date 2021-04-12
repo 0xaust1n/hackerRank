@@ -39,6 +39,8 @@ Because he practies 40 hours a days.
 |  [Divisible Sum Pairs][20web]  | [Source Code][20code] |      2020/04/07      |
 |    [Migratory Birds][21web]    | [Source Code][21code] |      2021/04/08      |
 | [Jumping On The Clouds][22web] | [Source Code][22code] |      2020/04/09      |
+|    [Repeated String][23web]    | [Source Code][23code] |      2021/04/12      |
+
 ---
 **Medium Problems**  
 |               Title               |         Code          |          Desc           |
@@ -112,3 +114,6 @@ Because he practies 40 hours a days.
 
 [22web]:https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem
 [22code]:./src/easy/jumpingOnTheClouds.js
+
+[23web]:https://www.hackerrank.com/challenges/repeated-string/problem
+[23code]:./src/easy/repeatedString.js
