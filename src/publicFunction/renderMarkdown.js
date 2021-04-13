@@ -46,56 +46,45 @@ const render = () => {
 	ary[0] = temp_str.substring(0, 1).toUpperCase() + temp_str.substring(1, temp_str.length); //cap the first letter;
 	let str = '';
 	if (diffclut != 'exam') {
-		str = '| [';
-		ary.forEach((element, e) => {
-			str += element;
-			if (e < ary.length - 1) {
-				str += ' ';
-			}
-		});
-		str += ']';
-		str += '[' + count + 'web' + '] ';
+		str = `| [${generateCamelCase(ary)}][${count}web]`;
 	} else {
-		str = '| ';
-		ary.forEach((element, e) => {
-			str += element;
-			if (e < ary.length - 1) {
-				str += ' ';
-			}
-		});
+		str = `| [${generateCamelCase(ary)}]`;
 	}
-	str += '| ';
-	str += '[Source Code]';
-	str += '[' + count + 'code' + ']';
-	str += '| ';
-	str += date;
-	str += ' |';
-
+	str += ` | [Source Code][${count}code] | ${date} |`;
 	console.log(str);
 
-	let link = '';
-	link += '[' + count + 'web' + ']:';
-	link += 'https://www.hackerrank.com/challenges/';
-	ary.forEach((element, e) => {
-		let temp = element.toLocaleLowerCase();
-		link += temp;
-		if (e < ary.length - 1) {
-			link += '-';
-		}
-	});
-	link += '/problem';
-
+	let link = `[${count}web]:https://www.hackerrank.com/challenges/`;
+	link += `${generateSnakeCase(ary)}/problem`;
 	if (diffclut != 'exam') {
 		console.log(link);
 	}
 
-	let src = '';
-	src += '[' + count + 'code' + ']:';
-	src += './src/';
-	src += diffclut + '/';
-	src += question + '.js';
+	let src = `[${count}code]:./src/${diffclut}/${question}.js`;
 	console.log(src);
 	readline.close();
+};
+
+const generateSnakeCase = (ary) => {
+	let word = '';
+	ary.forEach((element, e) => {
+		let temp = element.toLocaleLowerCase();
+		word += temp;
+		if (e < ary.length - 1) {
+			word += '-';
+		}
+	});
+	return word;
+};
+
+const generateCamelCase = (ary) => {
+	let word = '';
+	ary.forEach((element, e) => {
+		word += element;
+		if (e < ary.length - 1) {
+			word += ' ';
+		}
+	});
+	return word;
 };
 
 getDiff();
