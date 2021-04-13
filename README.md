@@ -1,4 +1,4 @@
-<center>HackerRank With JavaScript</center >
+### HackerRank With JavaScript
 
 # Intro 
 **Story About TingTing**
@@ -7,8 +7,10 @@ He can solve every problem within a minute.
 Because he practies 40 hours a days.  
 ~~Absolutely not bullshit~~
 
-**JUST PRACTIES**  
-# Contents  
+**JUST PRACTIES** 
+
+Notice: if you're looking for exam source codes =>  [Click Me](EXAM.md)
+# Table Of Contents  
 **Warmup Problems**  
 |             Title             |         Code          |    Desc    |
 | :---------------------------: | :-------------------: | :--------: |
@@ -46,6 +48,9 @@ Because he practies 40 hours a days.
 |               Title               |         Code          |          Desc           |
 | :-------------------------------: | :-------------------: | :---------------------: |
 | [Climbing the Leaderboard][15web] | [Source Code][15code] | 2021/03/31~  2021/04/01 |
+
+
+
 
 
 <!-- URL Below -->
