@@ -1,5 +1,6 @@
 // Complete the birthday function below.
-function birthday(s, d, m) {
+//apporaching 1  brute force
+function apporaching1(s, d, m) {
 	let count = 0;
 	for (let i = 0; i < s.length; i++) {
 		let temp = 0;
@@ -17,11 +18,24 @@ function birthday(s, d, m) {
 	return count;
 }
 
-const test = () => {
-	let s = [2, 5, 1, 3, 4, 4, 3, 5, 1, 1, 2, 1, 4, 1, 3, 3, 4, 2, 1];
-	let m = 7;
-	let d = 18;
-	console.log(birthday(s, d, m));
-};
-
-test();
+//apporaching 2 use an array to record the sum
+function birthday(s, d, m) {
+	let count = 0;
+	let sumArray = [];
+	for (let i = 0; i < s.length; i++) {
+		if (i == 0) {
+			sumArray.push(s[i]);
+		} else {
+			let temp = s[i] + sumArray[i - 1];
+			sumArray.push(temp); // sum all the elements before index
+		}
+	}
+	for (let j = m - 1; j < sumArray.length; j++) {
+		let overflow = j - m >= 0 ? sumArray[j - m] : 0; //j - m  out of the index
+		let sum = sumArray[j] - overflow;
+		if (sum == d) {
+			count++;
+		}
+	}
+	return count;
+}
