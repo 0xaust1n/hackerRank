@@ -1,10 +1,11 @@
-### HackerRank With JavaScript
+### Hacker Rank With JavaScript
 
 # Intro 
 **Story About TingTing**
+
 > TingTing is the king of coding.  
 He can solve every problem within a minute.  
-Because he practies 40 hours a days.  
+Because he practices 40 hours a days.  
 ~~Absolutely not bullshit~~
 
 **JUST PRACTIES** 
@@ -42,6 +43,7 @@ Notice: if you're looking for exam source codes =>  [Click Me](EXAM.md)
 |    [Migratory Birds][21web]    | [Source Code][21code] |      2021/04/08      |
 | [Jumping On The Clouds][22web] | [Source Code][22code] |      2020/04/09      |
 |    [Repeated String][23web]    | [Source Code][23code] |      2021/04/12      |
+|   [The Birthday Bar][24web]    | [Source Code][24code] |      2021/04/15      |
 
 ---
 **Medium Problems**  
@@ -122,3 +124,6 @@ Notice: if you're looking for exam source codes =>  [Click Me](EXAM.md)
 
 [23web]:https://www.hackerrank.com/challenges/repeated-string/problem
 [23code]:./src/easy/repeatedString.js
+
+[24web]:https://www.hackerrank.com/challenges/the-birthday-bar/problem
+[24code]:./src/easy/theBirthdayBar.js
