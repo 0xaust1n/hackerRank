@@ -44,7 +44,7 @@ Notice: if you're looking for exam source codes =>  [Click Me](EXAM.md)
 | [Jumping On The Clouds][22web] | [Source Code][22code] |      2020/04/09      |
 |    [Repeated String][23web]    | [Source Code][23code] |      2021/04/12      |
 |   [The Birthday Bar][24web]    | [Source Code][24code] |      2021/04/15      |
-| [Equality In A Arrray][25web]  | [Source Code][25code] |      2021/04/16      |
+|  [Equality In A Array][25web]  | [Source Code][25code] |      2021/04/16      |
 
 ---
 **Medium Problems**  
@@ -129,5 +129,5 @@ Notice: if you're looking for exam source codes =>  [Click Me](EXAM.md)
 [24web]:https://www.hackerrank.com/challenges/the-birthday-bar/problem
 [24code]:./src/easy/theBirthdayBar.js
 
-[25web]:https://www.hackerrank.com/challenges/equality-in-a-arrray/problem
-[25code]:./src/easy/equalityInAArrray.js
+[25web]:https://www.hackerrank.com/challenges/equality-in-a-array/problem
+[25code]:./src/easy/equalityInAArray.js
