@@ -41,7 +41,7 @@ const q = () => {
 };
 
 const render = () => {
-	let ary = question.replace(/([a-z0-9])([A-Z])/g, '$1 $2').split(' ');
+	let ary = question.replace(/([A-Z])/g, ' $1').split(' ');
 	let temp_str = ary[0];
 	ary[0] = temp_str.substring(0, 1).toUpperCase() + temp_str.substring(1, temp_str.length); //cap the first letter;
 	let str = '';
