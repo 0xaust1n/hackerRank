@@ -43,7 +43,7 @@
 <br>
 
 ```
-♠ memo ♠  <== title
+- MEMO - <== title
 <content> <== content below the title
 
 ```
@@ -57,5 +57,4 @@
 - filename use camel case and not including the file type
 - don't capitalize the first letter
 - no dot (.) at the end
-- 
 <br>
