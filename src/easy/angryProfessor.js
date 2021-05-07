@@ -1,4 +1,5 @@
-function angryProfessor(k, a) {
+//apporaching 1 for
+function apporaching1(k, a) {
 	// Write your code here
 	let onTime = 0;
 	let result = 'YES';
@@ -13,4 +14,15 @@ function angryProfessor(k, a) {
 	}
 
 	return result;
+}
+
+// apporaching 2 forEach
+function angryProfessor(k, a) {
+	let count = 0;
+	ary.forEach((e) => {
+		if (e <= 0) {
+			count++;
+		}
+	});
+	return count >= k ? 'NO' : 'YES';
 }
